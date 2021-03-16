@@ -1,7 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  @apply max-w-xl mx-auto text-gray-900 bg-white dark:bg-gray-800 dark:text-white transition-colors;
+@layer base {
+	body {
+		@apply max-w-xl mx-auto text-gray-900 bg-white dark:bg-gray-800 dark:text-white transition-colors;
+  }
 }

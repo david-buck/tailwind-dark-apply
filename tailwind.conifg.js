@@ -1,5 +1,4 @@
 module.exports = {
-  purge: ["./public/**/*.html", "./src/**/*.{js}"],
-  darkMode: "media",
+  purge: ["./public/**/*.html", "./pages/**/*.{js}"],
   theme: {},
 };
